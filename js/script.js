@@ -34,13 +34,11 @@ for (let i = 0; i < botones.length; i++) {
             console.log("gana ordenador");
             puntosOrdenador ++;
         }
-        console.log("Usuario tiene " + puntosUsuario + " ordenador tiene " + puntosOrdenador)
+        console.log("Usuario tiene " + puntosUsuario + " ordenador tiene " + puntosOrdenador);
+        resultados.textContent = `Has elegido ${jugadaUsuario} y el ordenador ha elegido ${jugadaOrdenador}`;
+        marcadorUsuario.textContent = ` tus puntos + ${puntosUsuario}`;
+        marcadorOrdenador.textContent = `puntos ordenador + ${puntosOrdenador}`;
     }); 
 }
-//contador de puntos de usuario y ordenador
-//ordenador gana usuario +1punto 
-//usuario gana al ordenador +1punto
-//empate no se suma 0 puntos
-
 
 
