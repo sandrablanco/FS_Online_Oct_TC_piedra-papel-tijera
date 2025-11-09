@@ -25,6 +25,18 @@ time, mark, audio, video {
   --principal-font: "Montserrat", sans-serif;
 }
 
+.titulo {
+  color: #ff007f; 
+}
+
+header p {
+  color: #23012c; 
+}
+
+header h1 {
+  font-style: (var(--principal-font));
+}
+
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -87,4 +99,13 @@ justify-content: center;
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+#contador-usuario {
+  color: #3a198299;       
+  margin-bottom: 20px;  
+}
+
+#contador-ordenador {
+  color: #e45bafb9;       
 }
